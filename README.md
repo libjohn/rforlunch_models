@@ -4,21 +4,7 @@
 
 <!-- badges: end -->
 
-Part 5 of **R for Lunch**: [*Introduction to R*](https://intro2r.library.duke.edu/)
-
--   [pivot](https://intro2r.library.duke.edu/longer_wider)
-
--   [join](https://intro2r.library.duke.edu/join)
-
--   tidy data
-
--   exercises
-
-Part 6 of **R for Lunch**: [Introduction to R](https://intro2r.library.duke.edu/)
-
--   [functions](https://intro2r.library.duke.edu/functions)
-
--   [iterate with {purrr}](https://intro2r.library.duke.edu/purrr)
+Discussion of computational approaches for inference with linear regression in R using `lm()` and prediction with the [tidymodels](https://tidymodels.org) package.
 
 ## License and Attribution
 
