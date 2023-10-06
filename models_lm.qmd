@@ -89,6 +89,7 @@ my_cor_df
 ### `geom_smooth()`
 
 ```{r}
+#| label: smooth-regression
 evals_ch5 %>% 
   ggplot(aes(age, score)) +  # color = gender
   geom_jitter() +
@@ -186,6 +187,7 @@ my_iterations
 ```
 
 ```{r}
+#| label: myplots
 my_iterations |> pull(my_plot)
 my_iterations |> pull(my_plot_age)
 ```
@@ -219,6 +221,7 @@ The fitted values can also be accessed via `broom::augment()`
 `.fitted` & `.residuals`
 
 ```{r}
+#| label: regression-from-fitted
 fit <- lm(mpg ~ wt, data = mtcars)
 
 tidy(fit)
